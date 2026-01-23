@@ -1,4 +1,6 @@
-# problem definition
+# Problem Definition
+
+## 1. Physical Meaning of the Heat Equation
 Considering 1D diffusion eqn,
 
 $$
@@ -31,3 +33,32 @@ $$
 Assuming constant material properties, this reduces to the heat equation,
 where $\alpha = \frac{k}{\rho C_p}$. 
 
+
+Importantly, temperature change due to the **imbalance of the heat flux** not its gradient itself.
+The second spatial derivative represents curvature in the T field, which drives diffusion.
+
+## 2. Diffusion as a Physical Process
+
+This eqn describes a diffusion process.  
+Regions of high temperature curvature experience stronger changes, while flat regions remain unchanged.
+
+From a physical perspective, diffusion can be interpreted as a local averaging process:
+- Points hotter than their neighbors lose heat.
+- Points colder than their neighbors gain heat.
+
+**This behavior distinguishes diffusion from wave propagation.**
+While waves transmit information at finite speed, diffusion spreads information instantaneously but gradually.
+
+## 3. Diffusion Time Scale
+A characteristic time scale for diffusion can be obtained through scaling analysis.
+Balancing the temporal and spatial terms of the heat equation,
+
+$$
+\frac{T}{\tau}=\alpha frac{T}{L^2}
+$$
+
+yields the diffusion time scale
+
+$$
+\tau=frac{L^2}{\alpha}
+$$
