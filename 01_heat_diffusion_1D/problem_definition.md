@@ -13,5 +13,5 @@ The rate of change of internal energy must balance the net conductive heat flux.
 Thus,
 
 $$
-\rho C_p $DELTA$x
+\rho C_p $$DELTA$$x
 $$
