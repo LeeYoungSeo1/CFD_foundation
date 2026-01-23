@@ -19,5 +19,13 @@ $$
 Using fourier's law,
 
 $$
-\q = -k \frac{\partial T}{\partial x} 
+q = -k \frac{\partial T}{\partial x} 
 $$
+
+and applying energy conservation leads to 
+
+$$
+\ rho C_p frac{\partial T}{\partial t} = \frac{k \frac{\partial T}{\partial x}}{\partial x}
+$$
+
+  
