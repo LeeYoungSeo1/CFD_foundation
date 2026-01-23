@@ -25,7 +25,9 @@ $$
 and applying energy conservation leads to 
 
 $$
-\rho C_p frac{\partial T}{\partial t} = \frac{}{\partial x} (k \frac{\partial T}{\partial x})
+\rho C_p \frac{\partial T}{\partial t} = \frac{\partial}{\partial x} (k \frac{\partial T}{\partial x})
 $$
 
-  
+Assuming constant material properties, this reduces to the heat equation,
+where $\alpha = \frac{k}{\rho C_p}$. 
+
