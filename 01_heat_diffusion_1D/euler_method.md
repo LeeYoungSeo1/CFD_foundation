@@ -16,6 +16,7 @@ The second spatial derivative is approximated using a central difference:
 $$
 \frac{\partial^2 T}{\partial x^2}= \frac{T_{i+1}^n-2 T_i^n +T_{i-1}^n}{\Delta x^2}
 $$
+
 This discretization measures the local curvature of the temperature field
 and captures the imbalance of heat flux at each grid point.
 
