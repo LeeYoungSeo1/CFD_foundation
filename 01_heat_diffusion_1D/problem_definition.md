@@ -17,6 +17,7 @@ $$
 $$
 
 Using fourier's law,
+
 $$
 \q = -k \frac{\partial T}{\partial x} 
 $$
