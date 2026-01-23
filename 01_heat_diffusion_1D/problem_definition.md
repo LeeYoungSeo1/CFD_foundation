@@ -54,11 +54,11 @@ A characteristic time scale for diffusion can be obtained through scaling analys
 Balancing the temporal and spatial terms of the heat equation,
 
 $$
-\frac{T}{\tau}=\alpha frac{T}{L^2}
+\frac{T}{\tau}=\alpha \frac{T}{L^2}
 $$
 
 yields the diffusion time scale
 
 $$
-\tau=frac{L^2}{\alpha}
+\tau= \frac{L^2}{\alpha}
 $$
