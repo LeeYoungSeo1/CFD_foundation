@@ -15,3 +15,6 @@ Thus,
 $$
 \rho C_p \Delta x = q(x) - q(x+ \Delta x)
 $$
+
+Using fourier's law,
+$\q=-k frac{partial T}{partial x} $
