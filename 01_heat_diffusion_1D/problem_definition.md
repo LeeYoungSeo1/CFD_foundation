@@ -13,5 +13,5 @@ The rate of change of internal energy must balance the net conductive heat flux.
 Thus,
 
 $$
-\rhoC_pDELTAx
+\rho C_pDELTAx
 $$
