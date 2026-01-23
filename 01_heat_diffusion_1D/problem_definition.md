@@ -62,3 +62,12 @@ yields the diffusion time scale
 $$
 \tau= \frac{L^2}{\alpha}
 $$
+
+
+This time scale provides a physical estimate for how long it takes thermal disturbances
+to propagate across a domain of length L.
+
+In numerical simulations, this scale helps interpret transient behavior
+and provides a reference for selecting appropriate simulation time horizons.
+
+
